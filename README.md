@@ -1,2 +1,2 @@
-# Sorting-Visualizaiton-Algorithm---Homework-7-CS6017-Benjamin-Vladimir
-Algorithm Visualization Use D3 to visualize a Sorting Algorithm. 
+# Sorting-Visualization-Algorithm---Homework-7-CS6017- Group-Project-with-Benjamin-and-Vladimir
+Algorithm Visualization Using D3 to Visualize a Sorting Algorithm. 
