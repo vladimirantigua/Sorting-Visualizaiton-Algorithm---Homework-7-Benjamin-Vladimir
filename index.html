@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sorting Visualizaiton ALGO :) </title>
+	<script src="//d3js.org/d3.v3.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+
+	<style>
+		.small {
+			fill: red;
+		}
+
+		.large {
+			fill: green;
+		}
+		
+		text {
+			font-size: 40px;
+		}
+
+		.stay {
+			fill: black;
+			/* fill: blue; */
+		}
+
+		.pivot {
+			fill: rgb(7, 232, 26);
+		}
+
+	
+		rect {
+			fill: none;
+			/* fill: whitesmoke;
+			text-decoration-color: violet; */
+			stroke: rgb(14, 47, 235);
+		}
+		.btn.btn-success.active,
+		.btn.btn-success:active {
+		color: #fff;
+		background-color: #5cb85c;
+		border-color: #5cb85c;
+		outline: none;
+		}
+		.btn.btn-success.active.focus,
+		.btn.btn-success.active:focus,
+		.btn.btn-success.active:hover,
+		.btn.btn-success:active.focus,
+		.btn.btn-success:active:focus,
+		.btn.btn-success:active:hover {
+		color: #fff;
+		background-color: #5cb85c;
+		border-color: #5cb85c;
+		outline: none;
+		box-shadow: none;
+		}
+
+		#author:hover {
+            background: transparent;
+            border: none;
+            color: white;
+            box-shadow: 7px 7px 12px rgb(235, 6, 6);
+            transition: 0.5s;
+            /* #simple_clock {} */
+        }
+        
+        body {
+			background: transparent;
+			/* Good images numbers favorite# at front: 19, 26, 20, 28, 24, 17, 18, 11, 15, 8, 6, 5,   */
+			background-image: url('image.jpeg'); 
+            background-repeat: no-repeat;
+            background-size: cover;
+			/* background-size: 100%; */
+        }
+        
+        /* #countdown {
+            color: white;
+        } */
+	</style>
+
+ </head>
+
+  <body>
+	<div id="buttons">
+		<button onclick="run_bubbleSort()" class="btn btn-primary">Bubble Sort</button>
+		<button onclick="run_insertionSort()" class="btn btn-info">Insertion Sort</button>
+		<button onclick="run_selectionSort()" class="btn btn-light">Selection Sort</button>
+		<button onclick="clear_all() " class="btn btn-danger">Clear</button>
+
+	
+
+	</div>
+	<p></p>
+
+
+	<script src="script.js"></script>
+  </body>
+
+</html>
